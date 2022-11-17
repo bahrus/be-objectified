@@ -56,7 +56,8 @@ define<Proxy & BeDecoratedProps<VirtualProps, Actions>, Actions>({
             setPropFromValue: {
                 ifAllOf: ['value'],
                 ifNoneOf: ['path']
-            }
+            },
+            setPropFromSubValue: 'subValue'
         }
     },
     complexPropDefaults:{

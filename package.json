@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
-    "be-decorated": "0.0.196"
+    "be-decorated": "0.0.196",
+    "be-hive": "0.0.77"
   },
   "devDependencies": {
     "may-it-serve": "0.0.4",
