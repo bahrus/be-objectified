@@ -12,7 +12,9 @@
     "@skypack/package-check": "0.2.2"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "serve": "node node_modules/may-it-serve/serve.js",
+    "package-check": "package-check",
+    "test": "playwright test"
   },
 
   "repository": {
