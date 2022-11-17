@@ -1,6 +1,6 @@
 # be-objectified
 
-Reads a string from (session)Storage, parses as JSON, pulls a value from an optional path.
+Read a string from (session)Storage, parse as JSON, and optionally pull a value from a path.
 
 ```html
 <input type=hidden be-objectified='{

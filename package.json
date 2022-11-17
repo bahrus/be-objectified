@@ -1,8 +1,25 @@
 {
   "name": "be-objectified",
   "version": "0.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Read a string from (session)Storage, parse as JSON, and optionally pull a value from a path.",
+  "keywords": [
+    "web components",
+    "web component",
+    "custom elements",
+    "custom element",
+    "sessionStorage",
+    "localStorage"
+  ],
+  "main": "be-objectified.js",
+  "module": "be-objectified.js",
+  "exports": {
+    ".": "./be-objectified.js",
+    "./be-objectified.js": "./be-objectified.js"
+  },
+  "files": [
+    "*.*"
+  ],
+  "types": "./types.d.ts",
   "dependencies": {
     "be-decorated": "0.0.196",
     "be-hive": "0.0.77"
