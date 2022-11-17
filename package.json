@@ -1,6 +1,6 @@
 {
   "name": "be-objectified",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Read a string from (session)Storage, parse as JSON, and optionally pull a value from a path.",
   "keywords": [
     "web components",
@@ -34,7 +34,6 @@
     "package-check": "package-check",
     "test": "playwright test"
   },
-
   "repository": {
     "type": "git",
     "url": "git+https://github.com/bahrus/be-objectified.git"
